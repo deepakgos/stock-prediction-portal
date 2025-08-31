@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from './Button.jsx'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 
 const main = (props) => {
   return (
