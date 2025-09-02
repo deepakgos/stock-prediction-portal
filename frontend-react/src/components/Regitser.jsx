@@ -67,7 +67,7 @@ const Regitser = () => {
                     // To see this in action Loading... and Register. Go to Network tab and set the no throttling to slow 3G or Regular 3G
                         
                     } 
-                    {/* The (...) parts are grouping parentheses, not curly braces.
+                    {/* The (...) parts are grouping parentheses, not curly braces in {loading ? (<button className line.
 They just group the JSX button elements so it’s more readable (especially across multiple lines).
                     Ternary operator to show loading state. No curly braces Because {} in JSX means “evaluate JS expression here”.
 But inside the ternary, you’re already inside a JS expression (between the outer {}), so you can just directly write JSX. */}
