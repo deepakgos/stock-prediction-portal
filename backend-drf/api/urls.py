@@ -6,4 +6,5 @@ urlpatterns = [
     path('register/', UserViews.RegisterView.as_view()), # as_view() is used to convert a class-based view into a view function that can be used in URL routing
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('protected-view/', UserViews.ProtectedView.as_view()),
 ]

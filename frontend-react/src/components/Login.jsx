@@ -26,7 +26,7 @@ const Login = () => {
             localStorage.setItem('refreshToken', response.data.refresh); // Store the refresh token in local storage
             console.log("Login Success!");
             setIsLoggedIn(true); // Update the login state in context
-            navigate('/')
+            navigate('/dashboard'); // Redirect to dashboard after successful login
         }catch(error){
             console.log("Login Error: ", error);
             setError('Invalid username or password');
